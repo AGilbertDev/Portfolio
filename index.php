@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexandre Gilbert | Développeur fullstack</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="container-fluid bg-main-color p-0 text-light vh-100">
+    <div class="container vh-100 px-0 py-5">
+
+      <!-- Navbar -->
+      <div class="navigation row">
+        <nav id="nav" class="navbar navbar-expand-sm navbar-dark mx-auto ">
+
+          <!-- Hamburger Button -->
+          <i id="menuBtn" class="d-sm-none fas fa-bars ms-auto fs-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
+
+          <!-- Links -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#about" class="nav-link text-uppercase">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link text-uppercase">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#resume" class="nav-link text-uppercase">CV</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link text-uppercase">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero -->
+      <div id="hero" class="hero row p-0 mx-auto">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <div>
+            <h6 class="display-6">Bonjour,</h6>
+            <h5 class="display-4 mb-4">Je m'appelle Alexandre Gilbert</h5>
+            <p class="mb-4">Je suis développeur fullstack</p>
+            <a href="#projects" class="btn btn-outline-light">Voir mon portfolio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid p-0">
+
+    <!-- About -->
+    <div class="container px-0 py-5">
+      <div id="about" class="mx-auto">
+        <h2 class="fw-normal text-main-color mb-4">À propos de moi</h2>
+        <p class="text-justify">Je suis étudiant en informatique à l'université et je termine bientôt mes études. Passionné par la programmation, j'aime autant le développement web que les applications mobiles et PC. Je m'intéresse aussi à la cybersécurité et j'essaie le plus possible d'en incorporer dans tout ce que je programme. </p>
+
+        <p class="text-justify">Je suis constamment à la recherche de nouvelles compétences et je consacre beaucoup de mon temps libre à élargir mon stack. Dernièrement, j'ai suivi une formation en C# donnée par Microsoft. J'ai envie d'apprendre Angular très prochainement. </p>
+
+        <p class="text-justify">J'ai beaucoup d'expériences connexes qui me permettent de comprendre le fonctionnement sur le plancher des entreprises où j'ai travaillé. J'ai eu affaire à des environnements très exigeants qui demandaient une bonne performance, une capacité à résoudre les problèmes et un grand souci de la qualité. Je suis quelqu'un de sérieux, qui n'a pas peur de travailler et je suis fier de pouvoir dire que j'ai vu comment ça marche parce que j'étais là!</p>
+
+        <a href="#resume"><i class="fa-solid fa-arrow-down me-2"></i> Allez voir mon CV!</a>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container-fluid bg-dark-subtle p-0 m-0">
+      <div class="container bg-dark-subtle px-0 py-5">
+        <div id="projects" class="mx-auto">
+          <h2 class="fw-normal text-main-color mb-4">Mon portfolio</h2>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-0 m-0">
+      <div class="container px-0 py-5">
+        <div id="resume" class="mx-auto">
+
+          <div class="d-flex">
+            <h2 class="mb-4">Mon CV</h2>
+
+            <a class="ms-2" href="files/AlexandreGilbert_CV.pdf" download>
+              <h2><i class="fa-regular fa-file-pdf"></i></i></h2>
+            </a>
+          </div>
+
+
+          <!-- CV PETIT FORMAT -->
+          <div class="d-md-none mb-4">
+            <h3 class="mb-4">Mon Stack</h3>
+            <div>
+              <h5>Backend</h5>
+              <div class="d-flex flex-wrap mb-4">
+                <img src="images/PHP.png" alt="php" title="PHP">
+                <img src="images/CSharp.png" alt="C#" title="C#">
+                <img src="images/NETcore.png" alt=".Net Core" title=".NET Core">
+                <img src="images/MySQL.png" alt="MySQL" title="MySQL">
+                <img src="images/PostgresSQL.png" alt="PostgreSQL" title="PostgreSQL">
+              </div>
+              <div>
+                <h5>Frontend</h5>
+                <div class="d-flex flex-wrap mb-4">
+                  <img src="images/JavaScript.png" alt="Javascript" title="Javascript">
+                  <img src="images/HTML5.png" alt="HTML 5" title="HTML">
+                  <img src="images/CSS3.png" alt="CSS 3" title="CSS">
+                  <img src="images/Bootstrap.png" alt="Bootstrap" title="Bootstrap">
+                  <img src="images/Sass.png" alt="Sass">
+                  <img src="images/TailwindCSS.png" alt="Tailwind" title="Tailwind">
+                </div>
+              </div>
+              <div>
+                <h5>Autres langages</h5>
+                <div class="d-flex flex-wrap mb-4">
+                  <img src="images/Python.png" alt="Python" title="Python">
+                  <img src="images/Java.png" alt="Java" title="Java">
+                  <img src="images/Android.png" alt="Android" title="Android">
+                </div>
+              </div>
+              <div>
+                <h5>Controle de versions</h5>
+                <div class="d-flex flex-wrap mb-4">
+                  <img src="images/Git.png" alt="Git" title="Git">
+                  <img src="images/GitHub.png" alt="GitHub" title="GitHub">
+                </div>
+              </div>
+            </div>
+            <h3 class="mb-4">Formation</h3>
+
+            <p>
+              2021 - 2025<br>
+              <strong>Baccalauréat - Informatique</strong><br>
+              Université de Montréal
+            </p>
+
+            <p>
+              2019 - 2020<br>
+              <strong>Certificat - Informatique appliquée</strong><br>
+              Université de Montréal
+            </p>
+
+            <p>
+              2013 - 2014<br>
+              <strong>AEC - Modélisation 3D oritentée jeu vidéo</strong><br>
+              Le Campus ADN, Montréal
+            </p>
+
+            <p class="mb-4">
+              2010 - 2013<br>
+              <strong>DEC - Animation et synthèse d'images</strong><br>
+              Cégep de Matane
+            </p>
+
+            <h2 class="mb-4">Certifications</h2>
+            <p class="mb-4">
+              2024<br>
+              <strong>Foundational C# with Microsoft</strong><br>
+              Microsoft
+            </p>
+
+            <h3 class="mb-4">Expérience professionnelle</h3>
+            <p>
+              2018 - 2024<br>
+              <strong>Préparateur de commandes</strong><br>
+              Transport Logi-Pro, Montréal
+            </p>
+            <p>
+              2018<br>
+              <strong>Aide-Pressier</strong><br>
+              Thomson Tremblay, Montréal
+            </p>
+            <p>
+              2017<br>
+              <strong>Préparateur de commandes</strong><br>
+              Extra Multi-Ressources, Montréal
+            </p>
+            <p>
+              2015 - 2017<br>
+              <strong>Opérateur à l'empaquetage</strong><br>
+              Molson Coors, Montréal
+            </p>
+            <p>
+              2015<br>
+              <strong>Artiste 3D freelancer</strong><br>
+              EDGE Dimension, Montréal
+            </p>
+            <p>
+              2015<br>
+              <strong>Journalier</strong><br>
+              Fuze HR Solutions, Montréal
+            </p>
+            <p>
+              2014<br>
+              <strong>Journalier</strong><br>
+              Bédard Ressources, Montréal
+            </p>
+          </div>
+
+          <!-- CV GROS FORMAT -->
+          <div class="d-none d-md-block">
+            <h3 class="text-center fw-normal text-main-color mb-4">Mon stack</h3>
+
+            <div class="row mx-auto mb-2">
+              <div class="col-3 d-flex justify-content-center">
+                <h5 class="text-center">Backend</h5>
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <h5 class="text-center">Frontend</h5>
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <h5 class="text-center">Autres langages</h5>
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <h5 class="text-center">Controle de versions</h5>
+              </div>
+            </div>
+
+            <div class="row mx-auto mb-5">
+              <div class="col-3 d-flex align-items-start justify-content-center">
+                <div class="d-flex flex-wrap w-100 p-0">
+                  <img src="images/PHP.png" alt="php" title="PHP">
+                  <img src="images/CSharp.png" alt="C#" title="C#">
+                  <img src="images/NETcore.png" alt=".Net Core" title=".NET Core">
+                  <img src="images/MySQL.png" alt="MySQL" title="MySQL">
+                  <img src="images/PostgresSQL.png" alt="PostgreSQL" title="PostgreSQL">
+                </div>
+              </div>
+              <div class="col-3 d-flex align-items-start justify-content-center">
+                <div class="d-flex flex-wrap w-100 p-0">
+                  <img src="images/JavaScript.png" alt="Javascript" title="Javascript">
+                  <img src="images/HTML5.png" alt="HTML 5" title="HTML">
+                  <img src="images/CSS3.png" alt="CSS 3" title="CSS">
+                  <img src="images/Bootstrap.png" alt="Bootstrap" title="Bootstrap">
+                  <img src="images/Sass.png" alt="Sass">
+                  <img src="images/TailwindCSS.png" alt="Tailwind" title="Tailwind">
+                </div>
+              </div>
+              <div class="col-3 d-flex align-items-start justify-content-center">
+                <div class="d-flex flex-wrap w-100 p-0">
+                  <img src="images/Python.png" alt="Python" title="Python">
+                  <img src="images/Java.png" alt="Java" title="Java">
+                  <img src="images/Android.png" alt="Android" title="Android">
+                </div>
+              </div>
+              <div class="col-3 d-flex align-items-start justify-content-center">
+                <div class="d-flex flex-wrap w-100 p-0">
+                  <img src="images/Git.png" alt="Git" title="Git">
+                  <img src="images/GitHub.png" alt="GitHub" title="GitHub">
+                </div>
+              </div>
+            </div>
+
+            <!-- Titres -->
+            <div class="row mx-auto">
+              <div class="col-6">
+                <h3 class="text-center fw-normal text-main-color mb-4">Formation</h3>
+              </div>
+              <div class="col-6">
+                <h3 class="text-center fw-normal text-main-color mb-4">Expérience<br>professionnelle</h3>
+              </div>
+            </div>
+
+            <!-- Baccalaureat -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative">
+                <div class="d-flex align-items-center justify-content-start">
+                  <div class="event card p-2 ms-25">
+                    <p class="text-start my-auto">
+                      <strong>Baccalauréat - Informatique</strong><br>
+                      Université de Montréal
+                    </p>
+                  </div>
+                  <p class="date-l">2021 - 2025</p>
+                  <div class="line-l"></div>
+                  <div class="circle-l"></div>
+                </div>
+              </div>
+              <div class="col-6 position-relative"></div>
+            </div>
+
+            <!-- Certification C# -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative">
+                <div class="d-flex align-items-center justify-content-start">
+                  <div class="event card p-2 ms-25">
+                    <p class="text-start my-auto">
+                      <strong>Certification: Foundational C# with Microsoft</strong><br>
+                      Microsoft
+                    </p>
+                  </div>
+                  <p class="date-l">2024</p>
+                  <div class="line-l"></div>
+                  <div class="circle-l"></div>
+                </div>
+              </div>
+              <div class="col-6 position-relative"></div>
+            </div>
+
+            <!-- TLP -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Préparateur de commandes</strong><br>
+                      Transport Logi-Pro, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2018 - 2021</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Certificat -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative">
+                <div class="d-flex align-items-center justify-content-start">
+                  <div class="event card p-2 ms-25">
+                    <p class="text-start my-auto">
+                      <strong>Certificat - Informatique appliquée</strong><br>
+                      Université de Montréal
+                    </p>
+                  </div>
+                  <p class="date-l">2019 - 2020</p>
+                  <div class="line-l"></div>
+                  <div class="circle-l"></div>
+                </div>
+              </div>
+              <div class="col-6 position-relative"></div>
+            </div>
+
+            <!-- Aide-pressier -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Aide-pressier</strong><br>
+                      Thomson Tremblay, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2018</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SAQ -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Préparateur de commandes</strong><br>
+                      Extra Multi-Ressources, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2017</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Molson -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Opérateur à l'empaquetage</strong><br>
+                      Molson Coors, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2015 - 2017</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Artiste 3D -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Artiste 3D freelancer</strong><br>
+                      EDGE Dimension, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2015</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fuze -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Journalier</strong><br>
+                      Fuze HR Solutions, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2015</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bédard -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative"></div>
+              <div class="col-6 position-relative">
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="event card p-2 me-25">
+                    <p class="text-start my-auto">
+                      <strong>Journalier</strong><br>
+                      Bédard Ressources, Montréal
+                    </p>
+                  </div>
+                  <p class="date-r">2014</p>
+                  <div class="line-r"></div>
+                  <div class="circle-r"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AEC -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative">
+                <div class="d-flex align-items-center justify-content-start">
+                  <div class="event card p-2 ms-25">
+                    <p class="text-start my-auto">
+                      <strong>AEC - Modélisation 3D orientée jeu vidéo</strong><br>
+                      Le Campus ADN, Montréal
+                    </p>
+                  </div>
+                  <p class="date-l">2013 - 2014</p>
+                  <div class="line-l"></div>
+                  <div class="circle-l"></div>
+                </div>
+              </div>
+              <div class="col-6 position-relative"></div>
+            </div>
+
+            <!-- DEC -->
+            <div class="row mx-auto">
+              <div class="col-6 border-end border-2 border-dark position-relative">
+                <div class="d-flex align-items-center justify-content-start">
+                  <div class="event card p-2 ms-25">
+                    <p class="text-start my-auto">
+                      <strong>DEC - Animation 3D et synthèse d'images</strong><br>
+                      Cégep de Matane
+                    </p>
+                  </div>
+                  <p class="date-l">2010 - 2013</p>
+                  <div class="line-l"></div>
+                  <div class="circle-l"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 position-relative"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-fluid bg-dark-subtle p-0 m-0">
+      <div class="container px-0 py-5">
+        <div id="contact" class="mx-auto">
+
+          <div class="row row-cols-1 row-cols-lg-2 p-0">
+
+            <!-- Contact info -->
+            <div class="col mx-auto me-lg-0">
+              <div class="container mx-auto p-0 p-lg-4">
+                <h2 class="fw-normal text-main-color mb-4">Me contacter</h2>
+                <p class="text-justify">Je cherche un stage à faire cet automne pour l'université. N'hésitez pas à m'écrire si ça vous intéresse!</p>
+                <p class="text-justify">Vous pouvez me contacter par courriel à l'adresse ci-dessous, par Linkedin ou en utilisant le formulaire.</p>
+                <a href="mailto: alexandre.gilbert.dev@gmail.com" class="text-main-color mb-2 d-block"><i class="fas fa-envelope me-2"></i>alexandre.gilbert.dev@gmail.com</a>
+                <a href="https://www.linkedin.com/in/agilbertdev/" class="text-main-color d-block"><i class="fa-brands fa-linkedin-in me-2"></i>linkedin.com/in/agilbertdev</a>
+              </div>
+            </div>
+
+            <!-- Contact form -->
+            <div class="col mx-auto ms-lg-0">
+              <div class="container bg-main-color rounded-4 p-4 mt-5 mt-lg-0">
+                <h2 class="fw-normal text-main-color mb-4 text-light">Envoyer un message</h2>
+
+                <!-- Form Validation -->
+                <?php if ($_SERVER['REQUEST_METHOD'] == 'POST')
+                {
+                  require 'includes/formHandler.php';
+                  $errors = validateForm();
+                }
+                ?>
+
+                <form id="contactForm" class="mx-auto d-flex flex-column gap-0" action="<?php echo $_SERVER["PHP_SELF"]; ?>#contact" method="POST" novalidate>
+                  <input name="fromName" type="text" class="form-control form-control-lg <?php if (isset($errors['nameErr']))
+                                                                                          {
+                                                                                            echo 'border border-2 border-danger';
+                                                                                          } ?> " placeholder="Nom complet *" value="<?php if (isset($fromName)) echo $fromName; ?>" required />
+                  <!-- Displays name error message. -->
+                  <?php if (isset($errors['nameErr']))
+                  {
+                    echo "<p class='err text-danger'>{$errors['nameErr']}</p>";
+                  } ?>
+
+                  <input name="fromCompany" type="text" class="mt-4 form-control form-control-lg" placeholder="Compagnie" value="<?php if (isset($fromCompany)) echo $fromCompany; ?>" />
+
+                  <input name="fromEmail" type="email" class="mt-4 form-control form-control-lg <?php if (isset($errors['emailErr']))
+                                                                                                {
+                                                                                                  echo 'border border-2 border-danger';
+                                                                                                } ?> " placeholder="Courriel *" value="<?php if (isset($fromEmail)) echo $fromEmail; ?>" required />
+                  <!-- Displays email error message. -->
+                  <?php if (isset($errors['emailErr']))
+                  {
+                    echo "<p class='err text-danger'>{$errors['emailErr']}</p>";
+                  } ?>
+
+                  <input name="subject" type="text" class="mt-4 form-control form-control-lg <?php if (isset($errors['subjectErr']))
+                                                                                              {
+                                                                                                echo 'border border-2 border-danger';
+                                                                                              } ?> " placeholder="Objet *" value="<?php if (isset($subject)) echo $subject; ?>" required />
+                  <!-- Displays title error message. -->
+                  <?php if (isset($errors['subjectErr']))
+                  {
+                    echo "<p class='err text-danger'>{$errors['subjectErr']}</p>";
+                  } ?>
+
+                  <textarea name="message" type="text" class="mt-4 form-control form-control-lg <?php if (isset($errors['messageErr']))
+                                                                                                {
+                                                                                                  echo 'border border-2 border-danger';
+                                                                                                } ?> " placeholder="Message *" rows="5" required><?php if (isset($message))
+                                                                                                                                                  {
+                                                                                                                                                    echo $message;
+                                                                                                                                                  } ?></textarea>
+                  <!-- Displays text error message. -->
+                  <?php if (isset($errors['messageErr']))
+                  {
+                    echo "<p class='err text-danger'>{$errors['messageErr']}</p>";
+                  } ?>
+
+                  <button id="submitBtn" type="submit" class="mt-4 btn btn-lg btn-light w-100">Envoyer</button><br />
+
+                  <!-- Displays success or error message. -->
+                  <?php if (isset($errors['success']))
+                  {
+                    echo "<p class='err text-success mx-auto my-0 p-0'>{$errors['success']}</p>";
+                  }
+                  else if (isset($errors['error']))
+                  {
+                    echo "<p class='err text-danger mx-auto my-0 p-0'>{$errors['error']}</p>";
+                  } ?>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid bg-main-color text-center text-white py-2">
+      <p class="my-auto">&copy; 2024 Alexandre Gilbert</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
