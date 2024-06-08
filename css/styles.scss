@@ -224,7 +224,7 @@ img {
 #projects,
 #resume,
 #contact {
-  width: 75%;
+  width: 80%;
 }
 
 /* Small screen */
@@ -265,10 +265,20 @@ img {
   #projects,
   #resume,
   #contact {
-    width: 60%;
+    width: 75%;
   }
 }
 
 /* Extra extra large screen */
 @media screen and (min-width: 1400px) {
+}
+
+.showcase {
+  min-width: 100%;
+  height: auto;
+}
+
+.project .icon {
+  width: 3rem;
+  height: 3rem;
 }

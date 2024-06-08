@@ -71,11 +71,11 @@
     <div class="container px-0 py-5">
       <div id="about" class="mx-auto">
         <h2 class="fw-normal text-main-color mb-4">À propos de moi</h2>
-        <p class="text-justify">Je suis étudiant en informatique à l'université et je termine bientôt mes études. Passionné par la programmation, j'aime autant le développement web que les applications mobiles et PC. Je m'intéresse aussi à la cybersécurité et j'essaie le plus possible d'en incorporer dans tout ce que je programme. </p>
+        <p class="text-justify">Je suis étudiant en informatique à l'université et je termine bientôt mes études. Passionné par la programmation, j'aime autant le développement web que les applications mobiles et PC. Je m'intéresse aussi à la cybersécurité et j'essaie le plus possible d'en incorporer dans ce que je programme. </p>
 
-        <p class="text-justify">Je suis constamment à la recherche de nouvelles compétences et je consacre beaucoup de mon temps libre à élargir mon stack. Dernièrement, j'ai suivi une formation en C# donnée par Microsoft. J'ai envie d'apprendre Angular très prochainement. </p>
+        <p class="text-justify">Je suis constamment à la recherche de nouvelles compétences et je consacre beaucoup de mon temps libre à élargir mon stack. Dernièrement, j'ai suivi une formation en C# donnée par Microsoft. J'ai envie d'apprendre ASP.NET Core et Angular très prochainement. </p>
 
-        <p class="text-justify">J'ai beaucoup d'expériences connexes qui me permettent de comprendre le fonctionnement sur le plancher des entreprises où j'ai travaillé. J'ai eu affaire à des environnements très exigeants qui demandaient une bonne performance, une capacité à résoudre les problèmes et un grand souci de la qualité. Je suis quelqu'un de sérieux, qui n'a pas peur de travailler et je suis fier de pouvoir dire que j'ai vu comment ça marche parce que j'étais là!</p>
+        <p class="text-justify">J'ai beaucoup d'expériences connexes dans le milieu industriel qui me permettent de comprendre le fonctionnement sur le plancher des entreprises où j'ai travaillé. J'ai eu affaire à des environnements très exigeants qui demandaient une bonne performance, une capacité à résoudre les problèmes et un grand souci de la qualité. Je suis quelqu'un de sérieux, qui n'a pas peur de travailler et je suis fier de pouvoir dire que j'ai vu comment ça marche parce que j'étais là!</p>
 
         <a href="#resume"><i class="fa-solid fa-arrow-down me-2"></i> Allez voir mon CV!</a>
       </div>
@@ -83,14 +83,58 @@
 
     <!-- Projects -->
     <div class="container-fluid bg-dark-subtle p-0 m-0">
-      <div class="container bg-dark-subtle px-0 py-5">
+      <div class="container px-0 py-5">
         <div id="projects" class="mx-auto">
           <h2 class="fw-normal text-main-color mb-4">Mon portfolio</h2>
-          <p></p>
+
+          <!-- Projet 1 -->
+          <div class="project row row-cols-1 row-cols-lg-2 d-flex flex-column-reverse flex-lg-row mb-5">
+            <div class="col">
+              <a href="https://agilbert.dev/ARN"><img src="images/project1.png" alt="" class="showcase"></a>
+            </div>
+            <div class="col px-lg-4">
+              <h3>Visualisateur d&apos;acides amin&eacute;s</h3>
+              <p class="text-justify">Site web r&eacute;alis&eacute; dans le cadre d&apos;un devoir pour un cours et permettant &agrave; l&apos;utilisateur de voir les acides amin&eacute;s qui composent une cha&icirc;ne d&apos;ARN.</p>
+              <p><em>Pour un meilleur affichage, consulter sur un PC.</em></p>
+              <div class="d-flex">
+                <img src="images/HTML5.png" alt="" title="HTML" class="icon">
+                <img src="images/CSS3.png" alt="" title="CSS" class="icon">
+                <img src="images/Bootstrap.png" alt="" title="Bootstrap" class="icon">
+                <img src="images/Sass.png" alt="" title="Sass" class="icon">
+                <img src="images/JavaScript.png" alt="" title="Javascript" class="icon">
+              </div>
+              <div>
+                <a href="https://agilbert.dev/ARN">Version Live: https://agilbert.dev/ARN</a>
+                <p class="text-secondary">Code source: disponible le 17 juin (apr&egrave;s la remise)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 -->
+          <div class="project row d-flex d-flex flex-column-reverse flex-lg-row-reverse">
+            <div class="col">
+              <img src="images/monitor.png" alt="" class="showcase">
+            </div>
+            <div class="col px-lg-4">
+              <h3>(&Agrave; venir) Logiciel de gestion d&apos;employ&eacute;s</h3>
+              <p class="text-justify">Application web qui permet aux employ&eacute; d&apos;un centre de distribution de consulter leur profil, contenant des informations sur leur poste, anciennet&eacute;, quota de performance de la semaine et leur paie, incluant les primes et bonus. Les administrateurs pourront ajouter, modifier ou supprimer des profils d'employ&eacute;s.</p>
+              <div class="d-flex">
+                <img src="images/php.png" alt="" title="php" class="icon">
+                <img src="images/mysql.png" alt="" title="mysql" class="icon">
+                <img src="images/HTML5.png" alt="" title="HTML" class="icon">
+                <img src="images/CSS3.png" alt="" title="CSS" class="icon">
+                <img src="images/Bootstrap.png" alt="" title="Bootstrap" class="icon">
+                <img src="images/Sass.png" alt="" title="Sass" class="icon">
+                <img src="images/JavaScript.png" alt="" title="Javascript" class="icon">
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
+    <!-- CV -->
     <div class="container-fluid p-0 m-0">
       <div class="container px-0 py-5">
         <div id="resume" class="mx-auto">
@@ -112,7 +156,6 @@
               <div class="d-flex flex-wrap mb-4">
                 <img src="images/PHP.png" alt="php" title="PHP">
                 <img src="images/CSharp.png" alt="C#" title="C#">
-                <img src="images/NETcore.png" alt=".Net Core" title=".NET Core">
                 <img src="images/MySQL.png" alt="MySQL" title="MySQL">
                 <img src="images/PostgresSQL.png" alt="PostgreSQL" title="PostgreSQL">
               </div>
@@ -123,7 +166,7 @@
                   <img src="images/HTML5.png" alt="HTML 5" title="HTML">
                   <img src="images/CSS3.png" alt="CSS 3" title="CSS">
                   <img src="images/Bootstrap.png" alt="Bootstrap" title="Bootstrap">
-                  <img src="images/Sass.png" alt="Sass">
+                  <img src="images/Sass.png" alt="Sass" title="Sass">
                   <img src="images/TailwindCSS.png" alt="Tailwind" title="Tailwind">
                 </div>
               </div>
@@ -238,7 +281,6 @@
                 <div class="d-flex flex-wrap w-100 p-0">
                   <img src="images/PHP.png" alt="php" title="PHP">
                   <img src="images/CSharp.png" alt="C#" title="C#">
-                  <img src="images/NETcore.png" alt=".Net Core" title=".NET Core">
                   <img src="images/MySQL.png" alt="MySQL" title="MySQL">
                   <img src="images/PostgresSQL.png" alt="PostgreSQL" title="PostgreSQL">
                 </div>
@@ -249,7 +291,7 @@
                   <img src="images/HTML5.png" alt="HTML 5" title="HTML">
                   <img src="images/CSS3.png" alt="CSS 3" title="CSS">
                   <img src="images/Bootstrap.png" alt="Bootstrap" title="Bootstrap">
-                  <img src="images/Sass.png" alt="Sass">
+                  <img src="images/Sass.png" alt="Sass" title="Sass">
                   <img src="images/TailwindCSS.png" alt="Tailwind" title="Tailwind">
                 </div>
               </div>
