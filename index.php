@@ -117,7 +117,7 @@
             </div>
             <div class="col px-lg-4">
               <h3>(&Agrave; venir) Logiciel de gestion d&apos;employ&eacute;s</h3>
-              <p class="text-justify">Application web qui permet aux employ&eacute; d&apos;un centre de distribution de consulter leur profil, contenant des informations sur leur poste, anciennet&eacute;, quota de performance de la semaine et leur paie, incluant les primes et bonus. Les administrateurs pourront ajouter, modifier ou supprimer des profils d'employ&eacute;s.</p>
+              <p class="text-justify">Application web qui permet aux employ&eacute;s d&apos;un centre de distribution de consulter leur profil, contenant des informations sur leur poste, anciennet&eacute;, quota de performance de la semaine et leur paie, incluant les primes et bonus. Les administrateurs pourront ajouter, modifier ou supprimer des profils d'employ&eacute;s.</p>
               <div class="d-flex">
                 <img src="images/PHP.png" alt="" title="PHP" class="icon">
                 <img src="images/MySQL.png" alt="" title="MySQL" class="icon">
@@ -179,7 +179,7 @@
                 </div>
               </div>
               <div>
-                <h5>Controle de versions</h5>
+                <h5>Contr&ocirc;le de versions</h5>
                 <div class="d-flex flex-wrap mb-4">
                   <img src="images/Git.png" alt="Git" title="Git">
                   <img src="images/GitHub.png" alt="GitHub" title="GitHub">
@@ -272,7 +272,7 @@
                 <h5 class="text-center">Autres langages</h5>
               </div>
               <div class="col-3 d-flex justify-content-center">
-                <h5 class="text-center">Controle de versions</h5>
+                <h5 class="text-center">Contr&ocirc;le de versions</h5>
               </div>
             </div>
 
