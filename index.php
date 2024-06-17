@@ -105,7 +105,7 @@
               </div>
               <div>
                 <a href="https://agilbert.dev/ARN">Version Live: https://agilbert.dev/ARN</a>
-                <p class="text-secondary">Code source: disponible le 17 juin (apr&egrave;s la remise)</p>
+                <a href="https://github.com/AGilbertDev/ARN"><i class="fa-brands fa-github"></i> Voir le code source sur GitHub</a>
               </div>
             </div>
           </div>
