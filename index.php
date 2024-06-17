@@ -104,7 +104,7 @@
                 <img src="images/JavaScript.png" alt="" title="Javascript" class="icon">
               </div>
               <div>
-                <a href="https://agilbert.dev/ARN">Version Live: https://agilbert.dev/ARN</a>
+                <a href="https://agilbert.dev/ARN">Version Live: https://agilbert.dev/ARN</a><br>
                 <a href="https://github.com/AGilbertDev/ARN"><i class="fa-brands fa-github"></i> Voir le code source sur GitHub</a>
               </div>
             </div>
