@@ -127,7 +127,7 @@
                 <img src="images/Sass.png" alt="" title="Sass" class="icon">
                 <img src="images/JavaScript.png" alt="" title="Javascript" class="icon">
               </div>
-              <a href="https://www.figma.com/design/xyOPc04fT62nfdoE2BY4CR/App-Dashboard?node-id=0-1&t=6Lo0r9nWKBG8lKfg-0"><i class="fa-brands fa-figma"></i> Voir le mockup sur Figma</a><br>
+              <a href="https://www.figma.com/design/xyOPc04fT62nfdoE2BY4CR/App-Dashboard?node-id=0-1&t=6Lo0r9nWKBG8lKfg-0"><i class="fa-brands fa-figma"></i> Voir le prototype sur Figma</a><br>
               <a href="https://github.com/AGilbertDev/Employee-Management-App"><i class="fa-brands fa-github"></i> Voir le code source sur GitHub</a>
             </div>
           </div>
