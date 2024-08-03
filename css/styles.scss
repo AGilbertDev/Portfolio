@@ -1,0 +1,284 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+// Colors
+$main-color: #0f172a;
+.bg-main-color {
+	background-color: $main-color;
+}
+.text-main-color {
+	color: $main-color;
+}
+
+body {
+	max-width: 100vw;
+}
+
+main {
+	width: 100vw;
+}
+
+// Fonts
+body * {
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+}
+
+// Navbar
+.navigation {
+	height: 5%;
+}
+
+.navbar-nav {
+	max-width: fit-content;
+}
+
+// Header
+
+.hero {
+	height: 95%;
+}
+
+// Buttons
+.btn {
+	padding: 0.75rem;
+	width: fit-content;
+}
+
+.row {
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.col,
+.col-12,
+.col-6,
+.col-4 {
+	margin: 0;
+	padding: 0;
+}
+
+// Footer
+.footer {
+	height: 30rem;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.err {
+	margin: 0 0 0 0.5rem;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: $main-color;
+	&:hover {
+		color: #71777e;
+	}
+	&:active {
+		color: $main-color;
+	}
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.circle-l,
+.circle-r {
+	border: 2px solid $main-color;
+	background-color: white;
+	border-radius: 100%;
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+}
+
+.circle-l {
+	right: calc(-0.5rem - 1px);
+}
+
+.circle-r {
+	left: calc(-0.5rem - 1px);
+}
+
+.line-l,
+.line-r {
+	width: 35%;
+	border: 1px solid $main-color;
+	position: absolute;
+	z-index: -1;
+}
+
+.line-l {
+	right: calc(0.5rem - 1px);
+}
+
+.line-r {
+	left: calc(0.5rem - 1px);
+}
+
+strong {
+	font-weight: bold;
+}
+
+.date-l,
+.date-r {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1.5rem;
+	position: absolute;
+}
+
+.date-l {
+	right: 0.5rem;
+}
+
+.date-r {
+	left: 0.5rem;
+}
+
+.event {
+	margin: 0.75rem 0 0 0;
+	width: 60%;
+	border: 1px solid $main-color;
+	border-radius: 16px;
+	margin-bottom: 1rem;
+}
+
+.flex-md-column-reverse {
+	flex-direction: column-reverse;
+}
+
+.ms-25 {
+	margin-left: 5%;
+}
+
+.me-25 {
+	margin-right: 5%;
+}
+
+img {
+	margin: 0.25rem;
+	max-width: 42px;
+}
+
+.download {
+	width: 3rem;
+	height: 3rem;
+	background-color: $main-color;
+}
+
+#nav,
+#hero,
+#about,
+#projects,
+#resume,
+#contact {
+	width: 80%;
+}
+
+/* Small screen */
+@media screen and (min-width: 576px) {
+	#nav {
+		width: 100%;
+	}
+}
+
+/* Medium screen */
+@media screen and (min-width: 768px) {
+}
+
+/* Large screen */
+@media screen and (min-width: 992px) {
+	img {
+		max-width: 64px;
+	}
+	.event {
+		width: 50%;
+	}
+	.line-l,
+	.line-r {
+		width: 25%;
+	}
+	.ms-25 {
+		margin-left: 25%;
+	}
+	.me-25 {
+		margin-right: 25%;
+	}
+}
+
+/* Extra large screen */
+@media screen and (min-width: 1200px) {
+	#hero,
+	#about,
+	#projects,
+	#resume,
+	#contact {
+		width: 75%;
+	}
+}
+
+/* Extra extra large screen */
+@media screen and (min-width: 1400px) {
+}
+
+.showcase {
+	min-width: 100%;
+	height: auto;
+}
+
+.project .icon {
+	width: 3rem;
+	height: 3rem;
+}
