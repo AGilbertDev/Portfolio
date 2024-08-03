@@ -507,7 +507,6 @@
             <div class="col mx-auto me-lg-0">
               <div class="container mx-auto p-0 p-lg-4">
                 <h2 class="fw-normal text-main-color mb-4">Me contacter</h2>
-                <p class="text-justify">Je cherche un stage à faire cet automne pour l'université. N'hésitez pas à m'écrire si ça vous intéresse!</p>
                 <p class="text-justify">Vous pouvez me contacter par courriel à l'adresse ci-dessous, par Linkedin ou en utilisant le formulaire.</p>
                 <a href="mailto: alexandre.gilbert.dev@gmail.com" class="text-main-color mb-2 d-block"><i class="fas fa-envelope me-2"></i>alexandre.gilbert.dev@gmail.com</a>
                 <a href="https://www.linkedin.com/in/agilbertdev/" class="text-main-color d-block"><i class="fa-brands fa-linkedin-in me-2"></i>linkedin.com/in/agilbertdev</a>
