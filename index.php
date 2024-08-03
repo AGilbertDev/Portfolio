@@ -144,7 +144,7 @@
           <div class="d-flex">
             <h2 class="mb-4">Mon CV</h2>
 
-            <a class="ms-2" href="https://github.com/AGilbertDev/My-Resume/blob/main/AlexandreGilbert_CV.pdf" download>
+            <a class="ms-2" href="files/AlexandreGilbert_CV.pdf" download>
               <h2><i class="fa-regular fa-file-pdf"></i></i></h2>
             </a>
           </div>
